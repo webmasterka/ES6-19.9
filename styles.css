@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://image.freepik.com/darmowe-wektory/streszczenie-tlo-obwod-gradientu_52683-14540.jpg');
+    background-size: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    color: white;
+    letter-spacing: 5px;
+    font-size:15px; 
+    text-align: center;
+}
+
+.user {
+    margin-top: 30px;
+    width: 300px;
+    height: 270px;
+    margin-left: 280px;
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+}
+
+.user_name {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+
+.user_name:hover {
+    color: white;
+}
